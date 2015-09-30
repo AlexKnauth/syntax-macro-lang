@@ -21,5 +21,5 @@
           (base-module-begin (macro module-body ooo)))
         (module reader syntax/module-reader current-mod-path))]
     [(module-begin current-mod-path:id macro:id body-stuff:expr ...)
-     #'(-module-begin current-mod-path macro body-stuff ...)]))
+     #'(-module-begin current-mod-path macro #:module-begin #%module-begin body-stuff ...)]))
 
