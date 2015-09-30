@@ -9,3 +9,8 @@ Example language for wrapping the body in the `#%app` macro:
 #lang s-exp syntax/macro-lang path/to/the-lang #%app
 (provide #%datum add1)
 ```
+And a file using that language:
+```racket
+#lang path/to/the-lang
+add1 0
+```
