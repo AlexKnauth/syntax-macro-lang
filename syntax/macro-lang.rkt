@@ -1,6 +1,7 @@
 #lang racket/base
 
-(provide (rename-out [-module-begin #%module-begin]))
+(provide (rename-out [-module-begin #%module-begin])
+         (except-out (all-from-out racket/base) #%module-begin))
 
 (require (for-syntax racket/base
                      syntax/parse
