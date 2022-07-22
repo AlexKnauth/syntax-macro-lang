@@ -1,4 +1,4 @@
-syntax-macro-lang [![Build Status](https://travis-ci.org/AlexKnauth/syntax-macro-lang.png?branch=master)](https://travis-ci.org/AlexKnauth/syntax-macro-lang)
+syntax-macro-lang
 ===
 An experimental racket module language for creating languages, inspired by
 [jackfirth/racket-syntax-lang](https://github.com/jackfirth/racket-syntax-lang).
